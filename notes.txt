@@ -1,0 +1,30 @@
+1. inset
+
+    The inset property is a shorthand property for the following properties:
+
+    top
+    bottom
+    left
+    right
+
+    he inset property sets the distance between an element and the parent element.
+
+2. defined bg img for div in html as,
+
+            style="--img: url('img/s66.jpeg')"
+
+    later in css,
+
+            background: var(--img);
+
+3. sliderElement.appendChild(slidesArray[0]);
+
+    when appending an element from array to dom elmt, it will move to last and the second one will move to 1st position
+
+4. sliderElement.prepend(slidesArray[slidesArray.length-1]);
+
+    add to 1st position
+
+5. overflow: hidden;
+
+in main container removes scroll bar
